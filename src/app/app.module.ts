@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { CsPage } from '../pages/cs/cs';
 import { DibPage } from '../pages/dib/dib';
+import { PyePage } from '../pages/pye/pye';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DibPage } from '../pages/dib/dib';
     HomePage,
     HistoriaPage,
     CsPage,
-    DibPage
+    DibPage,
+    PyePage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { DibPage } from '../pages/dib/dib';
     HomePage,
     HistoriaPage,
     CsPage,
-    DibPage
+    DibPage,
+    PyePage
   ],
   providers: [
     StatusBar,
